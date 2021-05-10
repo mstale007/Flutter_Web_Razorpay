@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:payment_gateway/views/RazorPayWeb.dart';
-import 'package:payment_gateway/views/RazorPayWeb2.dart';
+//import 'package:payment_gateway/views/RazorPayWeb2.dart';
 import 'package:payment_gateway/views/home.dart';
 
 void main() {
