@@ -26,10 +26,11 @@ class RazorPayWeb extends StatelessWidget {
       });
 
       element.requestFullscreen();
-      element.src = 'assets/html/payment.html?amt=' +
+      element.src = 'https://fwrzp.netlify.app/payment.html?amt=' +
           amount +
           '&rpay_key=' +
           razorpay_key;
+      element.allowPaymentRequest = true;
       element.style.border = 'none';
       print(element.attributes);
       return element;
